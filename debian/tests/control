@@ -1,0 +1,6 @@
+Tests: testsuite
+Depends: python3-all,
+         python3-pytest,
+         python3-pytest-mock,
+         @,
+Restrictions: allow-stderr

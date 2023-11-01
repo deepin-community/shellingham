@@ -1,0 +1,10 @@
+---
+Bug-Database: https://github.com/sarugaku/shellingham/issues
+Bug-Submit: https://github.com/sarugaku/shellingham/issues/new
+Changelog: https://github.com/sarugaku/shellingham/blob/master/CHANGELOG.rst
+Registry:
+  - Name: PyPI
+    Entry: shellingham
+Repository: https://github.com/sarugaku/shellingham.git
+Repository-Browse: https://github.com/sarugaku/shellingham
+
