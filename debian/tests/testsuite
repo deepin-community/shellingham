@@ -1,0 +1,10 @@
+#!/bin/sh
+
+set -e -u -x
+
+cp -r tests "$AUTOPKGTEST_TMP"
+cd "$AUTOPKGTEST_TMP"
+
+for py in $(py3versions -s); do
+    $py -m pytest -v 2>&1
+done
